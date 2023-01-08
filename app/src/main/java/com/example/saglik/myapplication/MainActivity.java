@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
 
                 startActivity(new Intent(MainActivity.this,LoginScreen.class));
+                finish();
 
 
             }
