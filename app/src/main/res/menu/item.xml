@@ -5,11 +5,7 @@
         android:title="AnaSayfa"
         android:icon="@drawable/ic_baseline_home_24"
         android:id="@+id/home"/>
-    <item
-        android:title="Veriler"
-        android:icon="@drawable/ic_baseline_data_exploration_24"
-        android:id="@+id/data"
-        />
+
     <item
         android:title="Profil"
         android:id="@+id/account"

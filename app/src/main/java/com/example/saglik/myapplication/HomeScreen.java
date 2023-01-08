@@ -33,10 +33,7 @@ public class HomeScreen extends AppCompatActivity {
                 {
                     case R.id.home:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
-                        return true;
-                    case R.id.data:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, dataFragment).commit();
-                        return true;
+
                     case R.id.account:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragment).commit();
                         return true;
